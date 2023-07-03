@@ -15,7 +15,7 @@ int main(){
     for(i = 1; i <= numero; i++){
         printf("Digite a nota do aluno %i: \n ", i);
         scanf("%f", &nota);
-        soma += nota;
+        soma = soma + nota;
     }
     media = soma / numero;
 
