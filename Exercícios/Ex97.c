@@ -9,6 +9,8 @@ int main() {
     for (int i = 0; i < 6;) {
         printf("Digite o %dº número par: ", i + 1);
         scanf("%d", &vetor[i]);
+        getchar();
+        
         if (vetor[i] % 2 == 0) {
             i++;
         } else {
