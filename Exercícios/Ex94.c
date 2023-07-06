@@ -18,7 +18,7 @@ int main(){
 
     A[3] = 100;
 
-    soma2 = (A[2] * A[2]) + (A[5] * A[5]); //25 + 49 = 74
+    soma2 = (A[2] * A[2]) + (A[4] * A[4]); //25 + 25 = 50
 
     printf("A soma entre o quadrado do valor armazenado na posicao 3 e 5 do vetor eh: %i\n", soma2);
 
