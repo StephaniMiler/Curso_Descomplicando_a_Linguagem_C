@@ -16,9 +16,9 @@ int main(){
 
     printf("O valor da soma dos vetores das posicoes 0, 1 e 5 eh: %i\n", soma1);
 
-    A[4] = 100;
+    A[3] = 100;
 
-    soma2 = (A[3] * A[3]) + (A[5] * A[5]); //4 + 49 = 53
+    soma2 = (A[2] * A[2]) + (A[5] * A[5]); //25 + 49 = 74
 
     printf("A soma entre o quadrado do valor armazenado na posicao 3 e 5 do vetor eh: %i\n", soma2);
 
@@ -26,8 +26,8 @@ int main(){
     printf("%i\n", A[0]); //1
     printf("%i\n", A[1]); //0
     printf("%i\n", A[2]); //5
-    printf("%i\n", A[3]); //-2
-    printf("%i\n", A[4]); //100
+    printf("%i\n", A[3]); //100
+    printf("%i\n", A[4]); //-5
     printf("%i\n", A[5]); //7
 
     return 0;
