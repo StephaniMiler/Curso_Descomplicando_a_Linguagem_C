@@ -8,6 +8,8 @@ int main(){
     for(int i= 0; i<=9; i++){
         printf("Digite o valor da %d posicao: ", i + 1);
         scanf("%d", &vetor[i]);
+        getchar();
+
         if(vetor[i] < 0){
             vetor[i] = 0;
         }
